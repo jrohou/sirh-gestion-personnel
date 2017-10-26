@@ -5,6 +5,7 @@
 
 <html>
 <head>
+	<link rel=stylesheet" href="<%=request.getContextPath()%>/bootstrap-3.3.7-dist/css/bootstrap.css">
 	<meta charset="UTF-8">
 	<title>SGP- App</title>
 </head>
