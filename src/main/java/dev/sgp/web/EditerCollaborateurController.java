@@ -13,6 +13,9 @@ public class EditerCollaborateurController extends HttpServlet {
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
 		
 		String matricule = req.getParameter("matricule");
+		String titre = req.getParameter("titre");
+		String nom = req.getParameter("nom");
+		String prenom = req.getParameter("prenom");
 		
 		resp.setContentType("text/html");
 		if(matricule == null) {
@@ -21,7 +24,12 @@ public class EditerCollaborateurController extends HttpServlet {
 		}
 		else {
 			resp.setStatus(200);
-					resp.getWriter().write("<h1>Edition de collaborateur</h1>");
+					resp.getWriter().write("<h1>Edition de collaborateur</h1>"
+							+"<p>Matricule = "+matricule+"</p>"
+							+"<p>Titre = "+titre+"</p>"
+							+"<p>Nom = "+nom+"</p>"
+							+"<p>Prénom = "+prenom+"</p>");
+					
 	}
 		}
 
