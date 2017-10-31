@@ -1,6 +1,0 @@
-<html>
-
-<body>
-Coucou
-</body>
-</html>

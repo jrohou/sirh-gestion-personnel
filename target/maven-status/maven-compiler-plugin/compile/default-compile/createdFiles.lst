@@ -1,0 +1,5 @@
+dev\sgp\web\ListerCollaborateursController.class
+dev\sgp\entite\Collaborateur.class
+dev\sgp\service\CollaborateurService.class
+dev\sgp\web\EditerCollaborateurController.class
+dev\sgp\util\Constantes.class
